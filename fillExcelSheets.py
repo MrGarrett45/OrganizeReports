@@ -1,3 +1,5 @@
+#Takes an unordered list of 5000+ inspections and puts them into the correct project folder that was created by makeFolders.py
+
 import os, openpyxl
 
 wb = openpyxl.load_workbook('allInspections.xlsx')
