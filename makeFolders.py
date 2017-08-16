@@ -1,3 +1,6 @@
+#Creates the system of folders which the insepction reports and detail reports will be organized into. First organizes by subcompany,
+#then by individual project
+
 import os, openpyxl
 
 linuxPath = '/home/gmclaughlin/Python/Safety Project'
