@@ -1,3 +1,5 @@
+#downloads project detail reports from the web and places them in the correct project folder created by makeFolders.py
+
 import os, openpyxl, time, shutil
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
